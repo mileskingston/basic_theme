@@ -1,0 +1,93 @@
+/* Header
+----------*/
+
+div#header {
+  position:relative;
+  margin:0;
+  padding:3.0303% 0;
+  color:#fff;
+  background:#666;
+}
+
+a#logo {
+  float:left;
+  margin:0 3.0303%;
+  width: 35%;
+  min-width: 120px;
+}
+a#logo img {
+  float: left;
+  width: 55%;
+}
+
+form#search-block-form {
+  float:right;
+  margin:0;
+  padding:0 3.0303% 0 10px;
+}
+form#search-block-form div.form-item {
+  float:left;
+  margin:0 5px 0 0;
+}
+form#search-block-form div.form-item label {
+  position:absolute;
+  top:-888em;
+}
+form#search-block-form input[type="submit"] {
+  color:#333;
+  background:#f2f2f2;
+}
+
+ul#social {
+  float:right;
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+ul#social li {
+  display:inline-block;
+  padding:0 5px;
+}
+ul#social li a {
+  display:inline-block;
+}
+
+nav#navbar {
+  clear:right;
+  float:right;
+  margin:0;
+  padding:24px 3.0303% 0 3.0303%;
+}
+nav#navbar ul {
+  margin:0;
+  padding:0;
+  line-height:20px;
+  font-size:16px;
+}
+nav#navbar ul li {
+  float:left;
+  margin:0 5px 0 0;
+  padding:0 0 7px 0;
+  list-style:none;
+}
+nav#navbar ul li.last {
+  margin-right:0;
+}
+nav#navbar ul li.active-trail {
+  background:url('../images/back-navbar-active.png') no-repeat center bottom;
+}
+nav#navbar ul li a {
+  float:left;
+  padding:5px;
+  color:#fff;
+}
+nav#navbar ul li.active-trail a,
+nav#navbar ul li a:hover {
+  background:#4d4d4d;
+}
+nav#navbar ul li.first a {
+  background:none;
+}
+nav#navbar ul li.first a:hover {
+  background:#4d4d4d;
+}

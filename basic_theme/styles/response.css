@@ -1,0 +1,213 @@
+/* Responsive
+--------------*/
+
+
+@media (min-width:481px) and (max-width:800px) {
+
+div#menu {
+  width:30%;
+  margin:0 0 0 2.5%;
+}
+
+div#content {
+  width:62.5%;
+  margin:0 2.5%;
+}
+div.menu div#content,
+div.aside div#content,
+div.menu-split div#content,
+div.menu-triple div#content,
+div.aside-split div#content,
+div.aside-triple div#content,
+div.full div#content,
+div.full-split div#content,
+div.full-triple div#content {
+  width:95%;
+}
+
+div#aside {
+  width:95%;
+  margin:2.5% 2.5% 0 2.5%;
+}
+div#aside div.block {
+  clear:left;
+}
+div#aside div.view-signposts {
+  width:auto;
+  margin-left:0;
+}
+div#aside div.view-signposts div.views-row {
+  float:left;
+  width:31.5790%;
+  margin-right:2.6316%;
+}
+div#aside div.view-signposts div.views-row-3,
+div#aside div.view-signposts div.views-row-6,
+div#aside div.view-signposts div.views-row-9,
+div#aside div.view-signposts div.views-row-12 {
+  margin-right:0;
+}
+div#aside div#block-views-links-block h2 span {
+  padding:0.6667% 1.6667%;
+}
+
+div#block-block-3,
+div#block-menu-menu-footer-menu,
+div#block-block-4 {
+  clear:left;
+  float:left;
+  margin-left:2.5%;
+  margin-right:2.5%;
+}
+
+}
+
+@media (max-width:480px) {
+
+div#menu {
+  float:none;
+  width:90%;
+  margin:0 5% 5% 5%;
+}
+
+div#content,
+div.menu div#content,
+div.aside div#content,
+div.menu-split div#content,
+div.menu-triple div#content,
+div.aside-split div#content,
+div.aside-triple div#content,
+div.full div#content,
+div.full-split div#content,
+div.full-triple div#content {
+  width:90%;
+  margin:0 5%;
+}
+
+a#logo {
+  float:none;
+  display:block;
+  margin:3% 5%;
+  text-align:center;
+}
+a#logo img {
+  float:none;
+}
+
+form#search-block-form {
+  padding:0 5% 0 5px;
+}
+
+ul#social {
+  float:left;
+  padding:0 5px 0 5%;
+}
+
+nav#navbar {
+  clear:both;
+  float:none;
+  padding:3% 5%;
+}
+
+div#banner {	
+ padding: 0 5%;
+}
+
+div#banner ul.menu {
+ clear: both;
+ float: none;	
+}
+
+div#views_slideshow_cycle_main_homepage_slideshow-block div.views-field-field-image {
+  float:none;
+  width:auto;
+  margin:0 1% 5% 1%;
+}
+div#views_slideshow_cycle_main_homepage_slideshow-block div.views-field-field-introduction {
+  float:none;
+  width:auto;
+  margin:0 0 3% 0;
+}
+div#views_slideshow_cycle_main_homepage_slideshow-block div.views-field-field-button-link {
+  float:none;
+  width:auto;
+  margin:0;
+}
+
+body.front div#block-views-signposts-block_1 {
+  padding:5% 0 0 0;
+}
+body.front div#block-views-signposts-block_1 div.views-row {
+  float:none;
+  width:auto;
+  margin:0 0 5% 0;
+}
+div#block-views-blog-homepage,
+div#block-views-news-homepage,
+div#block-views-events-homepage {
+  float:none;
+  width:auto;
+  margin:0 5%;
+  padding:5% 0 0 0;
+}
+
+div#aside {
+  width:90%;
+  margin:5% 5% 0 5%;
+}
+div#aside div.block {
+  clear:left;
+}
+div#aside div.view-signposts {
+  width:auto;
+  margin-left:0;
+}
+div#aside div.view-signposts div.views-row {
+  float:left;
+  width:47.2222%;
+  margin-right:5.5556%;
+}
+div#aside div.view-signposts div.views-row-last {
+  margin-bottom:20px;
+}
+div#aside div.view-signposts div.views-row-3,
+div#aside div.view-signposts div.views-row-5,
+div#aside div.view-signposts div.views-row-7,
+div#aside div.view-signposts div.views-row-9,
+div#aside div.view-signposts div.views-row-11 {
+  clear:left;
+}
+div#aside div.view-signposts div.views-row-2,
+div#aside div.view-signposts div.views-row-4,
+div#aside div.view-signposts div.views-row-6,
+div#aside div.view-signposts div.views-row-8,
+div#aside div.view-signposts div.views-row-10,
+div#aside div.view-signposts div.views-row-12 {
+  margin-right:0;
+}
+div#aside div#block-views-links-block h2 span {
+  padding:1.3333% 3.3333%;
+}
+
+body.node-type-webform div.field-name-body,
+body.node-type-webform form.webform-client-form {
+  float:none;
+  width:auto;
+}
+
+div.field-type-google-map-field {
+  float: none;
+  width: auto;
+}
+
+div#block-block-3,
+div#block-menu-menu-footer-menu,
+div#block-block-4 {
+  clear:left;
+  float:left;
+  margin-left:2.5%;
+  margin-right:2.5%;
+}
+
+
+}
